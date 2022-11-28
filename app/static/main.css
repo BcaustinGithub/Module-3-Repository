@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background-color: #302B27;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr 1fr;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.logincontainer {
+    width: 35%;
+    height: 100%;
+    background-color: #274690;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    font-size: 25px;
+    grid-row: 2/3;
+    grid-column: 1/4;
+    justify-self: center;
+    font-weight: 500;
+    border: 3px solid #F5F3F5;
+    box-shadow: 2px 2px 32px rgb(0,0,0);
+    border-radius: 2px;
+}
+
+.logincontainer p {
+    padding: 1%;
+}
+
+.btn {
+    border: 0;
+    height: 15%;
+    width: 25%;
+    background-color: #1B264F;
+    color: #F5F3F5;
+    font-size: 20px;
+    padding: 1%;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
+.navbar {
+    background-color: #171513;
+    height: 65px;
+    width: 300%;
+    position: sticky;
+    object-position: top;
+
+}

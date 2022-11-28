@@ -1,0 +1,19 @@
+body {
+    background-color: #302B27;
+    padding: 0;
+    margin: 0;
+}
+.logoutbutton {
+    text-decoration: None;
+    color: white;
+    border-radius: 2px;
+    padding: 7px;
+    background-color: #1B264F;
+}
+.navbar {
+    background-color: #171513;
+    height: 65px;
+    width: 100%;
+    position: sticky;
+    object-position: top;
+}
