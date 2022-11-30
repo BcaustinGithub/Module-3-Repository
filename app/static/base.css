@@ -17,3 +17,33 @@ body {
     position: sticky;
     object-position: top;
 }
+
+.logoutbtn {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 2em;
+}
+
+.buycar {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 1em;
+}
+
+.sellacar {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+.checkout {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 2em;
+    padding-top: 1em;
+}

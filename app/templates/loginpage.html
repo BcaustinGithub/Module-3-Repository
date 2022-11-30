@@ -13,14 +13,15 @@
     <script src='main.js'></script>
 </head>
 <body>
-    <nav class="navbar"
+    <nav class="navbar">
     
     </nav>
     <div class="logincontainer">
         <form action="" method="POST">
             {% csrf_token %}
-            <p>Username: {{form.username}}</p>
-            <p>Password: {{form.password}}</p>
+            <p>Username: <input type='text' name='username' id='username' class='input'></p>
+            <p>Password: <input type'text' name='password' id='password' class='input'></p>
+            <a href='registerpage' class='registerbutton'>Don't have an account? Register here.</a><br>
             <input type="submit" value="Log in" class="btn btn-secondary">
         </form>
     </div>

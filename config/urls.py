@@ -3,6 +3,12 @@ from app.views import *
 from django.contrib.admin import site
 
 urlpatterns = [
-    path('', base),
+    path('sellacar', sellcar),
+    path('buyacar', buyacar),
+    path('checkout', checkout),
+    path('registerpage', registerpage),
+    path('loginpage', base),
+    path('', loginpage, name='loginpage'),
+    path('logout', lout, name='lout'),
     path('admin/', site.urls),
 ]
